@@ -3,6 +3,7 @@ const express = require('express');
 const Fruit = require('./models/fruits.js');
 const app = express();
 const mongoose = require('mongoose');
+const PORT = process.env.PORT || 3000
 
 //MUST BE FIRST 
 //middleware
@@ -84,7 +85,7 @@ app.get('/fruits/:id', function(req, res){
   });
 
 
-app.listen(3000, () => {
-    console.log('listening');
+app.listen(PORT, () => {
+    console.log('listening', PORT);
 });
 
