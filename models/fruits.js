@@ -67,7 +67,7 @@ module.exports = Fruit;
 //     }
 // ];    
 
-
+//justapp:justPz7Xp7Qyr
 
 //MVC - module view controller : controller directly interact with the user
 //INDUCES: index(get- displays a list) destroy update create edit show(get/:id - diplays only one blog of id) - 7 restful routes

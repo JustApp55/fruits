@@ -12,7 +12,7 @@ app.use((req, res, next) =>{
     next()
 })
 
-app.use(express.urlencoded({extended:false}));
+app.use(express.urlencoded({extended:true}));
 
 
 //set up view engine
